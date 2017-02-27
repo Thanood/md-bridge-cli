@@ -1,0 +1,19 @@
+<template>
+  <require from="materialize-css/css/materialize.css"></require>
+  <h1>${message}</h1>
+  <div class="collapsible-basic-use">
+    <ul md-collapsible>
+      <li>
+        <div class="collapsible-header"><i class="mdi-image-filter-drama"></i>First</div>
+        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      </li>
+      <li>
+        <div class="collapsible-header"><i class="mdi-maps-place"></i>Second</div>
+        <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <input md-datepicker="container: body; value.two-way: selectedDate;" type="date" placeholder="pick a date" />
+  </div>
+</template>
